@@ -50,6 +50,7 @@
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
+  font-weight: normal;
   margin: 0;
   padding: 0;
 }
@@ -190,12 +191,12 @@
   position: relative;
   margin: 100px auto 0;
   background-color: #f2f2f2;
-  overflow: auto;
+  padding-top: 1px;
 }
 
 .feynman__title {
   position: relative;
-  margin: 100px auto 0;
+  margin: 99px auto 0;
   max-width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -311,7 +312,7 @@
 }
 
 .footer__columns {
-  margin: 60px auto 40px auto;
+  margin: 60px auto 40px;
   min-width: 90%;
   display: flex;
   justify-content: space-between;
